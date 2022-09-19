@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 0.98);
+  transition: box-shadow 0.25s ease 0s;
+}
+
+ul {
+  list-style: none;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li a {
+  display: inline !important;
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  color: rgb(134, 132, 133);
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
+h1 {
+  margin: 1em 0;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-size: 1px;
+  color: #00b39b;
+  font-size: 2em;
+}
+
+option {
+  color: black;
+}
+
+.l1:hover {
+  color: #00b39b;
+  padding: 20px 20px;
+  display: inline-block;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf5f5ee;
+  padding: 20px;
+  gap: 10px;
+  display: none;
+  position: absolute;
+  width: 250px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/* display : none */
+
+.dropd {
+  position: relative;
+  cursor: pointer;
+  color: rgb(132, 134, 133);
+  border-color: rgb(249, 249, 250);
+}
+.dropd:hover .dropdown {
+  display: flex;
+}
+h1 {
+  color: #00b39b;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  color: #00b39b;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+  color: #00b39b;
+  font-family: "Arial Narrow";
+}
+#sct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+#main {
+  offset-distance: 30px;
+  justify-content: space-between;
+  padding: 120px;
+}
+
+.cls1 {
+  color: rgb(83, 80, 81);
+  width: 400px;
+  float: left;
+  font-size: 17px;
+  font-style: inherit;
+  padding-left: 200px;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#box1 {
+  text-align: justify;
+  color: rgb(253, 250, 251);
+  border-color: rgb(49, 49, 50);
+  width: 300px;
+  height: 300px;
+  background-color: #009688;
+  box-shadow: -10px;
+  border-radius: 25px;
+  padding: 10px;
+  float: left;
+  font-size: 20px;
+  margin: 50px;
+  font-family: Verdana;
+}
+#box2 {
+  color: rgb(253, 250, 251);
+  border-color: rgb(49, 49, 50);
+  width: 300px;
+  background-color: rgb(49, 103, 132);
+  box-shadow: -10px;
+  border-radius: 25px;
+  padding: 10px;
+  float: left;
+  font-size: 20px;
+  margin: 50px;
+  height: 300px;
+  font-family: Verdana;
+}
+#box3 {
+  color: rgb(253, 250, 251);
+  border-color: rgb(49, 49, 50);
+  width: 300px;
+  background-color: rgb(22, 13, 42);
+  border-radius: 25px;
+  padding: 10px;
+  float: left;
+  margin: 50px;
+  height: 300px;
+  font-size: 25px;
+  font-family: Verdana;
+}
+
+.style-select {
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+  background-color: transparent;
+
+  font-size: 17px;
+  font-family: Verdana;
+}
+
+.sel1 {
+  padding-left: 10px;
+  margin-top: 60px;
+}
+
+.sel2 {
+  padding-left: 10px;
+  margin-top: 110px;
+}
+
+.sel3 {
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.sel4 {
+  margin: 20px;
+  margin-right: 30px;
+}
+
+.style-select li {
+  color: rgb(23, 10, 10);
+}
+.item0 > h1 {
+  font-size: 25px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 2px;
+  margin-right: 30px;
+  padding-left: 50px;
+}
+.sestioncl {
+  display: flex;
+  width: 90%;
+  margin: 10px;
+  padding-left: 40px;
+}
+
+.sectionc2 {
+  background-color: #e0f9f7;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.left {
+  width: 500px;
+  font-size: 17px;
+  font-style: inherit;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right {
+  width: 500px;
+  font-size: 17px;
+  font-style: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+.divl {
+  text-align: justify;
+  justify-content: space-between;
+  background-color: rgb(245, 249, 249);
+  font-size: 13px;
+  font-style: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 8px;
+  padding: 1px;
+  border-radius: 20px;
+  text-align: justify;
+  height: 250px;
+  width: 200px;
+}
+h4 {
+  font-size: 20px;
+  color: #00b39b;
+  font-style: initial;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+.pp {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.sectionc3 {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 80px;
+}
+.sectionc3 > div {
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.l2 {
+  color: #051b19;
+  background-color: #0fa5d7;
+  border-radius: 25px;
+  margin-left: 90px;
+}
+.l2:hover {
+  background-color: #4a30d8;
+  color: #e0f9f7;
+}
+.l2:link,
+.l2:visited {
+  color: rgb(253, 253, 253);
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.lnkpd {
+  background-color: #0fa5d7;
+  border-radius: 25px;
+  margin-left: 490px;
+}
+.lnkpd:hover {
+  background-color: #4a30d8;
+  color: #e0f9f7;
+}
+.lnkpd:link,
+.lnkpd:visited {
+  color: rgb(253, 253, 253);
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+.parag {
+  font-size: 40px;
+  border-radius: 25px;
+  text-align: center;
+}
+.lnkfoter {
+  color: rgb(153, 91, 10);
+  font-size: 14px;
+}
+.lnkfoter:link,
+.lnkfoter:visited {
+  color: #4389e3;
+  padding: 1px;
+  margin: 1px;
+}
+footer {
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.pargftr {
+  color: rgb(113, 112, 110);
+  text-align: center;
+}
+hr {
+  color: rgb(215, 213, 209);
+}
+.leader {
+  color: rgb(113, 112, 110);
+}
